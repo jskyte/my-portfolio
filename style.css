@@ -357,6 +357,24 @@ header {
     margin-right: 10%;
 }
 
+footer {
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+footer a:hover {
+    text-shadow: 2px 2px 3px #8a765d;
+}
+
 @media (max-width: 800px) {
     .main {
         display:none;
