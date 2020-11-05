@@ -265,6 +265,7 @@ header {
 .flex-item-exp-2 {
     order: 2;
     flex:50%;
+   
 }
 
 .flex-container-experience .flex-item-exp-1 li {
@@ -409,5 +410,15 @@ footer a:hover {
         justify-content: space-evenly;
     }
 
+    .flex-container-experience {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     
 }
