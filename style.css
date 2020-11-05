@@ -154,6 +154,21 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.flex-container-database {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.flex-container-other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%
 }
 
 .my-skills h2 {
@@ -162,32 +177,45 @@ header {
 }
 
 .flex-item-skill-img-1 {
-    flex: 33%
+    flex: 33%;
 }
 
 .flex-item-skill-img-2 {  
-    flex: 33%
+    flex: 33%;
 }
 
-.flex-item-skill-img-2 {  
-    flex: 33%
+.flex-item-skill-img-3 {  
+    flex: 33%;
 }
 
-
-.flex-item-skill-img-1 li {
-    font-size: 20px;
+.flex-item-skill-img-4 {
+    flex: 33%;
 }
 
-
-.flex-item-skill-img-2 li {
-    margin: 4px;
-    font-size: 20px;
+.flex-item-skill-img-5 {  
+    flex: 33%;
 }
 
-.flex-item-skill-img-3 li {
-    margin: 4px;
-    font-size: 20px;
+.flex-item-skill-img-6 {  
+    flex: 33%;
 }
+
+.flex-item-skill-img-7 {
+    flex: 25%;
+}
+
+.flex-item-skill-img-8 {  
+    flex: 25%;
+}
+
+.flex-item-skill-img-9 {  
+    flex: 25%;
+}
+
+.flex-item-skill-img-10 {  
+    flex: 25%;
+}
+
 
 /* CSS MY EXPERIENCE */
 .experience {
