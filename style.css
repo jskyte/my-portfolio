@@ -18,13 +18,15 @@ body {
     margin: auto;
     position: absolute;
     width: 100%;
-  
+    display: flex;
 }
 
 .main ul {
     list-style-type: none;
     margin-top: 2%;
-    float: right;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -69,7 +71,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 6vw;
     border-bottom: 1px solid aliceblue;
 }
 
@@ -79,7 +81,7 @@ header {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 /* CSS ABOUT ME */
@@ -116,6 +118,12 @@ header {
     margin-right: 50px;
 }
 
+.flex-item-image img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
+
 .flex-item-text {
     flex: 70%;
    
@@ -137,7 +145,7 @@ header {
 
 .my-skills h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 5vw;
 }
 
 .my-skills hr {
@@ -227,7 +235,7 @@ header {
 
 .experience h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 5vw;
 }
 
 .experience hr {
@@ -279,11 +287,109 @@ header {
     box-shadow: 5px 10px 8px #888888
 }
 
+.contact hr {
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:  #8a765d;
+    color:  #8a765d;
+    height: 2px;
+}
+
 .contact h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 5vw;
+}
+
+.flex-container-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .flex-container-contact p {
     margin-top: 3%;
+}
+
+.flex-container-contact .phone {
+    margin: 10px;
+}
+
+.flex-container-contact .phone ul li{
+    margin-left: 20px;
+}
+
+.flex-container-contact .home-address {
+    margin: 10px;
+}
+
+.flex-container-contact .home-address ul li{
+    margin-left: 20px;
+}
+
+.flex-container-contact .email-address {
+    margin: 10px;
+}
+
+.flex-container-contact .email-address ul li{
+    margin-left: 20px;
+}
+
+.flex-container-contact-right {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.flex-container-contact-right .twitter {
+    flex: 33%;
+    margin-right: 10%;
+}
+
+.flex-container-contact-right .facebook {
+    flex: 33%;
+    margin-right: 10%;
+}
+
+.flex-container-contact-right .instagram {
+    flex: 33%;
+    margin-right: 10%;
+}
+
+@media (max-width: 800px) {
+    .main {
+        display:none;
+    }
+
+    .flex-container-about {
+        flex-direction: column;
+    }
+
+    .flex-item-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flex-container-programming {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 10vw;
+    }
+    
+    .flex-container-database {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .flex-container-other {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    
 }
