@@ -66,6 +66,9 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius:  30px ;
+    box-shadow: 5px 5px 200px black inset;
 }
 
 .title h1 {
@@ -76,7 +79,6 @@ header {
     transform: translate(-50%, -50%);
     font-size: 6vw;
     border-bottom: 1px solid aliceblue;
-    
 }
 
 .sub-title h3 {
@@ -101,7 +103,6 @@ header {
 .about-me h1{
     text-align: center;
     font-size: 4vw;
-   
 }
 
 
@@ -271,6 +272,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 2%;
+    margin-left: 8%;
 }
 
 .flex-item-exp-1 {
@@ -282,7 +284,7 @@ header {
 .flex-item-exp-2 {
     order: 2;
     flex:50%;
-   margin-left: 10%;
+
 }
 
 .flex-container-experience .flex-item-exp-1 li {
@@ -547,9 +549,60 @@ footer a:hover {
         display:none;
     }
 
-    .flex-item-text q{
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.836)), url(images/headerphoto.jpg);
+        height: 80vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+
+    .title h1 {
+        color: aliceblue;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15vw;
+        border-bottom: 1px solid aliceblue;
+        
+    }
+    
+    .sub-title h3 {
+        color: aliceblue;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4vw;
+    }
+    
+    .flex-item-text {
+        margin-top: 20px;
+    }
+
+    .flex-item-text p{
+        font-size: 15px;
+        text-align:justify;
         margin-top: 5%;
     }
+    
+    .flex-item-text p b {
+        font-size: 20px;
+        font-variant: small-caps;
+    }
+
+    .flex-item-text q{
+        font-size: 12px;
+        margin-left: 10%;
+    }
+
+    .flex-item-text i{
+        margin-top: 5%;
+        font-size: 12px;
+    }
+    
 
     .flex-container-about {
         flex-direction: column;
@@ -557,27 +610,36 @@ footer a:hover {
 
     .flex-item-image img {
         display: block;
-        margin-left: auto;
+        margin-left: 28%;
         margin-right: auto;
+    }
+
+    .my-skills h2 {
+        font-size: 3vw;
     }
 
     .flex-container-programming {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        margin: 10vw;
+        width: 200px;
+        margin-left: 35%;
     }
     
     .flex-container-database {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        width: 200px;
+        margin-left: 35%;
     }
     
     .flex-container-other {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        width: 200px;
+        margin-left: 35%;
     }
 
     .flex-container-experience {
@@ -615,4 +677,154 @@ footer a:hover {
         margin-top: 7%;
     }
     
+}
+
+@media (max-width: 500px) {
+    .main {
+        display:none;
+    }
+
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.836)), url(images/headerphoto.jpg);
+        height: 50vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+
+    .title h1 {
+        color: aliceblue;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15vw;
+        border-bottom: 1px solid aliceblue;
+        
+    }
+    
+    .sub-title h3 {
+        color: aliceblue;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4vw;
+    }
+
+    /*CSS 500px ABOUT*/
+
+    .flex-item-image img {
+        display: block;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+    .flex-item-text q{
+        font-size: 11px;
+        margin-left: 5%;
+    }
+
+    .flex-item-text i{
+        font-size: 11px;
+        margin-left: 6%;
+        margin-bottom: 2%;
+    }
+
+    .flex-item-text p{
+        font-size: 15px;
+        text-align:justify;
+        margin-top: 5%;
+    }
+    
+    .flex-item-text p b {
+        font-size: 17px;
+        font-variant: small-caps;
+    }
+
+    /* CSS 500px SKILLS */
+    .flex-container-programming {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 200px;
+        margin-left: 20%;
+    }
+    
+    .flex-container-database {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 200px;
+        margin-left: 20%;
+    }
+
+    
+    .flex-container-other {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 200px;
+        margin-left: 20%;
+    }
+
+    /* CSS 500px EXPERIENCE */
+    .flex-item-exp-1 h2 {
+        font-size: 22px;
+    }
+
+    .flex-item-exp-1 li {
+        font-size: 14px;
+    }
+
+    .flex-item-exp-2 h2 {
+        font-size: 22px;
+    }
+
+    .flex-item-exp-2 li {
+        font-size: 14px;
+    }
+
+    /* CSS 500px PROJECTS*/
+    .flex-item-text-projects-1 h3 {
+        font-size: 15px;
+    }
+
+    .flex-item-text-projects-1 p {
+        font-size: 12px;
+    }
+
+    .flex-item-text-projects-2 h3 {
+        font-size: 15px;
+    }
+
+    .flex-item-text-projects-2 p {
+        font-size: 12px;
+    }
+
+    .flex-item-projects-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 12%;
+    }
+
+    /* CSS 500px */
+    .flex-container-contact-left h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .flex-container-contact-left li {
+        list-style-type:none;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .flex-container-contact-right {
+        margin-left: 10%;
+    }
+
 }
