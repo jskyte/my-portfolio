@@ -66,8 +66,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border-bottom-right-radius: 30px ;
-    border-bottom-left-radius:  30px ;
     box-shadow: 5px 5px 200px black inset;
 }
 
@@ -808,6 +806,10 @@ footer a:hover {
     .flex-item-text-projects-3 {
         margin-left: 10%;
         margin-top: 7%;
+    }
+
+    .flex-container-contact-right {
+        margin-left: 15%;
     }
     
 }
