@@ -9,7 +9,10 @@ html {
 }
 
 body {
-    background-color: #dfdfdf;
+    /* background-color: #dfdfdf; */
+    background-image: url(images/minimal-background-pattern-wordpress-16.jpg);
+
+    background-attachment: fixed;
     margin: auto;
 }
 
@@ -73,6 +76,7 @@ header {
     transform: translate(-50%, -50%);
     font-size: 6vw;
     border-bottom: 1px solid aliceblue;
+    
 }
 
 .sub-title h3 {
@@ -90,11 +94,13 @@ header {
     margin: 6%;
     padding: 5%;
     box-shadow: 5px 10px 8px #888888;
+    background-image: url(images/minimal-background-pattern-wordpress-20.jpg);
+    background-attachment: fixed;
 }
 
 .about-me h1{
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
    
 }
 
@@ -140,12 +146,14 @@ header {
     background-color: #f5f8fa;
     margin: 6%;
     padding: 5%;
-    box-shadow: 5px 10px 8px #888888
+    box-shadow: 5px 10px 8px #888888;
+    background-image: url(images/minimal-background-pattern-wordpress-18.jpg);
+    background-attachment: fixed;
 }
 
 .my-skills h1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .my-skills hr {
@@ -230,12 +238,14 @@ header {
     background-color: #f5f8fa;
     margin: 6%;
     padding: 5%;
-    box-shadow: 5px 10px 8px #888888
+    box-shadow: 5px 10px 8px #888888;
+    background-image: url(images/minimal-background-pattern-wordpress-19.jpg);
+    background-attachment: fixed;
 }
 
 .experience h1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .experience hr {
@@ -265,7 +275,7 @@ header {
 .flex-item-exp-2 {
     order: 2;
     flex:50%;
-   
+   margin-left: 10%;
 }
 
 .flex-container-experience .flex-item-exp-1 li {
@@ -285,12 +295,14 @@ header {
     background-color: #f5f8fa;
     margin: 6%;
     padding: 5%;
-    box-shadow: 5px 10px 8px #888888
+    box-shadow: 5px 10px 8px #888888;
+    background-image: url(images/minimal-background-pattern-wordpress-25.jpg);
+    background-attachment: fixed;
 }
 
 .projects h1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .projects hr {
@@ -342,6 +354,16 @@ header {
 .flex-item-text-projects-1 {
     flex: 60%;
     margin-top: 5%;
+    margin-left: 2%;
+}
+
+.flex-item-text-projects-1 h3 {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.flex-item-text-projects-1 p {
+    text-align: justify;
 }
 
 .flex-item-projects-2 {
@@ -366,12 +388,24 @@ header {
 .flex-item-text-projects-2 {
     flex: 60%;
     margin-top: 5%;
+    margin-right: 2%;
+}
+
+.flex-item-text-projects-2 h3 {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.flex-item-text-projects-2 p {
+    text-align: justify;
 }
 
 .flex-item-projects-3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: 35%;
+    margin-top: 5%;
 }
 
 .flex-item-image-projects-3 img {
@@ -389,7 +423,7 @@ header {
 
 .flex-item-text-projects-3 {
     flex: 70%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .flex-item-text-projects-3 a {
@@ -408,7 +442,9 @@ header {
     background-color: #f5f8fa;
     margin: 6%;
     padding: 5%;
-    box-shadow: 5px 10px 8px #888888
+    box-shadow: 5px 10px 8px #888888;
+    background-image: url(images/minimal-background-pattern-wordpress-8.jpg);
+    background-attachment: fixed;
 }
 
 .contact hr {
@@ -542,6 +578,30 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .flex-item-projects-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-item-text-projects-1 p {
+        margin-bottom: 5%;
+    }
+
+    .flex-item-projects-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-item-projects-3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-item-text-projects-3 {
+        margin-left: 10%;
+        margin-top: 7%;
     }
     
 }
