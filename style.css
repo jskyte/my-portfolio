@@ -204,6 +204,118 @@ header {
     flex: 33%;
 }
 
+/* Efek zoom in */
+.flex-item-skill-img-1 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-1 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-2 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-2 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-3 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-3 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-4 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-4 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-5 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-5 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-6 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-6 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-7 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-7 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-8 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-8 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-9 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-9 img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item-skill-img-10 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flex-item-skill-img-10 img:hover {
+    transform: scale(1.1);
+}
+
+/* Flex */
 .flex-item-skill-img-2 {  
     flex: 33%;
 }
