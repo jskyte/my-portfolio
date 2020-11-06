@@ -140,7 +140,7 @@ header {
 .flex-item-text p{
     font-size: 20px;
     text-align:justify;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .flex-item-text p b {
@@ -545,6 +545,10 @@ footer a:hover {
 @media (max-width: 800px) {
     .main {
         display:none;
+    }
+
+    .flex-item-text q{
+        margin-top: 5%;
     }
 
     .flex-container-about {
