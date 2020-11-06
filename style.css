@@ -104,6 +104,8 @@ header {
    
 }
 
+
+
 .about-me hr {
     width: 50%;
     margin-left: 25%;
@@ -139,6 +141,11 @@ header {
     font-size: 20px;
     text-align:justify;
     margin-top: 10%;
+}
+
+.flex-item-text p b {
+    font-size: 30px;
+    font-variant: small-caps;
 }
 
 /* CSS MY SKILLS */
