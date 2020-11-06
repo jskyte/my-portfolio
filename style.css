@@ -536,6 +536,11 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: transform .2s;
+}
+
+.flex-item-image-projects-3 img:hover {
+    transform: scale(1.1);
 }
 
 .flex-item-image-projects-3 {
@@ -576,6 +581,22 @@ header {
     background-color:  #8a765d;
     color:  #8a765d;
     height: 2px;
+}
+
+.flex-container-contact-right .twitter img {
+    transition: transform .2s;
+}
+
+.flex-container-contact-right .twitter img:hover {
+    transform:scale(1.1);
+}
+
+.flex-container-contact-right img {
+    transition: transform .2s;
+}
+
+.flex-container-contact-right img:hover {
+    transform:scale(1.1);
 }
 
 .contact h1 {
