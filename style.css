@@ -19,18 +19,19 @@ body {
 /* CSS NAVBAR */
 .main {
     margin: auto;
-    position: absolute;
     width: 100%;
     display: flex;
+    position: absolute;
+    z-index: 9;
 }
 
 .main ul {
     list-style-type: none;
-    margin-top: 2%;
+    color: aliceblue;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-
+    margin-top: 2%
 }
 
 .main ul li {
@@ -59,7 +60,7 @@ body {
 
 
 /* CSS HEADER */
-header {
+/* header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.836)), url(images/headerphoto.jpg);
     height: 100vh;
     width: 100%;
@@ -67,7 +68,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: 5px 5px 200px black inset;
-}
+} */
 
 .title h1 {
     color: aliceblue;
@@ -86,6 +87,17 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
+}
+
+.carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 5px 5px 200px black inset;
+    filter: brightness(0.4)
 }
 
 /* CSS ABOUT ME */
@@ -174,22 +186,20 @@ header {
 
 .flex-container-programming {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     margin-left: 10%;
 }
 
 .flex-container-database {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+
     margin-left: 10%;
 }
 
 .flex-container-other {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     margin-left: 10%
 }
 
@@ -204,10 +214,95 @@ header {
 
 /* Efek zoom in */
 .flex-item-skill-img-1 img {
-    width: 300px;
+    width: 100px;
     max-width: 100%;
     height: auto;
     transition: transform .2s;
+    margin: 1%;
+}
+
+.img-1-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-2-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-3-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-4-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-5-boot img{
+    width: 130px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-6-boot img{
+    width: 160px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-7-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-8-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-9-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-10-boot img{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: transform .2s;
+    margin: 1%;
+}
+
+.img-1-progress {
+    margin-top: 2%; 
 }
 
 .flex-item-skill-img-1 img:hover {
@@ -215,10 +310,11 @@ header {
 }
 
 .flex-item-skill-img-2 img {
-    width: 300px;
+    width: 100px;
     max-width: 100%;
     height: auto;
     transition: transform .2s;
+    margin: 1%;
 }
 
 .flex-item-skill-img-2 img:hover {
@@ -226,10 +322,11 @@ header {
 }
 
 .flex-item-skill-img-3 img {
-    width: 300px;
+    width: 100px;
     max-width: 100%;
     height: auto;
     transition: transform .2s;
+    margin: 1%;
 }
 
 .flex-item-skill-img-3 img:hover {
@@ -676,9 +773,9 @@ footer a:hover {
 }
 
 @media (max-width: 800px) {
-    .main {
+    /* .main {
         display:none;
-    }
+    } */
 
     header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.836)), url(images/headerphoto.jpg);
@@ -815,9 +912,9 @@ footer a:hover {
 }
 
 @media (max-width: 500px) {
-    .main {
+    /* .main {
         display:none;
-    }
+    } */
 
     header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.836)), url(images/headerphoto.jpg);
