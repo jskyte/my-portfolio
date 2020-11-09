@@ -11,7 +11,6 @@ html {
 body {
     /* background-color: #dfdfdf; */
     background-image: url(images/minimal-background-pattern-wordpress-16.jpg);
-
     background-attachment: fixed;
     margin: auto;
 }
@@ -97,8 +96,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: 5px 5px 200px black inset;
-    filter: brightness(0.4)
+    filter: brightness(0.2)
 }
+
 
 /* CSS ABOUT ME */
 .about-me {
@@ -506,6 +506,13 @@ body {
     margin-bottom: 10px;
 }
 
+.experience-card {
+    background-color: #f5f8fa;
+    box-shadow: 5px 10px 8px #888888;
+    background-image: url(images/minimal-background-pattern-wordpress-3.jpg);
+    background-attachment: fixed;
+}
+
 /*CSS PROJECTS */
 .projects {
     background-color: #f5f8fa;
@@ -657,6 +664,10 @@ body {
     text-shadow: 5px 5px 6px #8a765d;
 }
 
+.list-group-mine .list-group-item {
+    background-color: #ffffff00;
+  }
+  
 
 /* CSS CONTACT */
 .contact {
